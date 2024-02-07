@@ -11,7 +11,7 @@ header {
     padding: 1rem;
 }
 
-/* Stile per la barra di navigazione */
+
 .navMenu ul {
     list-style-type: none;
     margin: 0;
@@ -32,17 +32,17 @@ header {
     text-decoration: none;
 }
 
-/* Stile per il contenitore principale */
+
 #info {
     margin: 2rem;
 }
 
-/* Stile per gli articoli */
+
 article {
     margin: 2rem;
 }
 
-/* Stile per le immagini affiancate al testo */
+
 .flexbox {
     display: flex;
     align-items: center;
@@ -54,13 +54,13 @@ article {
     height: auto;
 }
 
-/* Stile per le righe numerate */
-.numeroRiga {
+
+-- {
     font-weight: bold;
     margin-right: 0.5rem;
 }
 
-/* Stile per i bottoni */
+
 #bottoni {
     text-align: center;
 }
@@ -74,14 +74,14 @@ article {
     cursor: pointer;
 }
 
-/* Stile per la sezione dei riferimenti */
+
 #append {
     background-color: #f4f4f4;
     padding: 1rem;
     text-align: center;
 }
 
-/* Nascondi gli elementi "add", "del", "gap", "damage" e "corr" */
+
 .add,
 .del,
 .gap,
@@ -90,7 +90,7 @@ corr {
     display: none;
 }
 
-/* Stile per gli elementi "gap" con sfondo rosso */
+
 gap {
     background-color: red;
     color: #fff;
@@ -110,7 +110,7 @@ corr,
     background-color: #a89732;
 }
 
-/* Stile per la legenda dei colori di sfondo */
+
 .legend {
     list-style: none;
     display: flex;
@@ -133,7 +133,7 @@ corr,
     border-radius: 50%;
 }
 
-/* Colori corrispondenti ai tag */
+
 .add,
 add {
     background-color: #0d00ff;
@@ -158,10 +158,10 @@ damage {
 
 
 
-/* Media query per adattarsi a schermi più piccoli */
+
 @media (max-width: 768px) {
 
-    /* Ridurre il margine per articoli e contenitore principale */
+    
     article,
     #info {
         margin: 1rem;
