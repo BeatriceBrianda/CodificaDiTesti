@@ -1,0 +1,331 @@
+<!DOCTYPE HTML><html xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Progetto di Codifica di Testi - E. Artom</title>
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"><script src="https://code.jquery.com/jquery-3.7.0.js"></script><script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script><script src="script.js"></script><link href="stile.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <header>
+         <h1>Diari di Emanuele Artom</h1>
+      </header>
+      <nav class="navMenu">
+         <ul>
+            <li><a href="#info">Informazioni</a></li>
+            <li><a href="#p90">Pagina 90</a></li>
+            <li><a href="#p91">Pagina 91</a></li>
+            <li><a href="#p92">Pagina 92</a></li>
+            <li><a href="#append">Riferimenti</a></li>
+         </ul>
+      </nav>
+      <div>
+         <div id="info">
+            <article>
+               <h1>Caratteristiche del documento</h1>
+               <div>
+                  <div>
+                     <div id="history">
+                        <h3>Origine della bozza</h3>
+                        <div class="info" id="docOrigin">
+                           							 Il materiale in questione consiste nei diari redatti da Emanuele Artom, 
+                           							arricchiti dalle prime due pagine contenenti la lettera originale di sua madre
+                           Amalia. 
+                           							Questa lettera, caratterizzata dall'epigrafe "alla mia morte questo plico deve
+                           essere 
+                           							consegnato al Centro di documentazione ebraica [...], esso ha un grande valore
+                           storico [...]", 
+                           							costituisce un importante contributo al contesto storico. I diari si suddividono
+                           chiaramente 
+                           							in due parti distinte. La prima parte, datata dal 1 gennaio 1940 al 10 settembre
+                           1943, 
+                           							fornisce interessanti dettagli sulla vita culturale a Torino durante quegli
+                           anni, 
+                           							offrendo anche uno sguardo sul progressivo sviluppo della persecuzione razziale.
+                           
+                           							Nel secondo segmento, che spazia dal novembre 1943 al 23 febbraio 1944, 
+                           							si delinea invece l'esperienza partigiana vissuta da Emanuele Artom. 
+                           							Questi diari costituiscono un prezioso documento storico che va oltre la mera
+                           cronaca, 
+                           							offrendo un'intima testimonianza di eventi cruciali e trasformazioni significative
+                           
+                           							nel contesto dell'epoca. 
+                           						</div>
+                        <h3>Acquisizione</h3>
+                        <div class="info" id="docAcq">
+                           							 Le carte del fondo Emanuele Artom sono state donate alla Fondazione
+                           							CDEC su espressa volontà della madre Amalia Segre Artom (cfr. busta 1,
+                           							fasc. 9). 
+                           						</div>
+                     </div>
+                  </div>
+                  <div>
+                     <h2>Descrizione fisica del manoscritto</h2>Fogli di carta.172 pagine + 2 pagine iniziali che contengono un appunto
+                     									della signora Amalia Artom sul diario del figlio Emanuele.Le pagine sono in buono stato, non presentano danni
+                     									rilevanti, ci sono poche cancellature. 
+                     									Le pagine sono costituite in media da 21 righe. A volte è
+                     									possibile trovare delle cancellature o delle aggiunte. Non
+                     									sempre è possibile comprendere la scrittura. 
+                     								Il testo è interamente scritto a mano. Il testo è scritto a mano in corsivo e alcune volte può essere
+                     								difficile da comprendere. Essendo degli appunti presentano
+                     								cancellature e aggiunte. Non essendo destinato alla pubblicazione
+                     								non presenta una copertina. </div>
+                  <div> Testi registrati dal Centro di Documentazione Ebraica Contemporanea -
+                     						CDEC 
+                     <placename>Milano</placename>, 
+                     <placename>Italia</placename>. 
+                     						1943-1944
+                     					</div>
+               </div>
+            </article>
+            <div id="fenomeni">
+               <ul class="legend">
+                  <li><span class="add"></span>Aggiunte</li>
+                  <li><span class="del"></span>Cancellazioni</li>
+                  <li><span class="gap"></span>Gap</li>
+                  <li><span class="damage"></span>Danneggiamenti</li>
+                  <li><span class="placename"></span>Luoghi</li>
+                  <li><span class="corr"></span>Correzioni</li>
+               </ul>
+               <div id="bottoni">
+                  <h3>Visualizza fenomeni notevoli</h3><button id="btn-add">Aggiunte</button><button id="btn-del">Cancellazioni</button><button id="btn-gap">Gap</button><button id="btn-damage">Danneggiamenti</button><button id="btn-corr">Correzioni</button><button id="btn-hide">Nascondi tutto</button></div>
+            </div>
+         </div>
+      </div>
+      <article id="p90">
+         <h2> Pagina 90 </h2>
+         <div class="flexbox">
+            <div class="img"><img src="Pag90.jpg"></div>
+            <div class="text">
+               <div id="pagina_90"></div>
+               					<br><span class="numeroRiga"><b>1</b></span>
+               					<del>ogni</del> balzo quale non ho
+               					<br><span class="numeroRiga"><b>2</b></span>
+               					mai fatto in vita mia e				
+               					<br><span class="numeroRiga"><b>3</b></span>
+               					si cominciò la volata per
+               					<br><span class="numeroRiga"><b>4</b></span>
+               					la campagna.
+               				
+               					Giunti quasi
+               					<br><span class="numeroRiga"><b>5</b></span>
+               					alla meta, preparai le bombe
+               					<br><span class="numeroRiga"><b>6</b></span>
+               					a mano per il combattimento
+               					<br><span class="numeroRiga"><b>7</b></span>
+               					e dichiarai ai compagni che
+               					<br><span class="numeroRiga"><b>8</b></span>
+               					si mostravano molto 
+               					<br><span class="numeroRiga"><b>9</b></span>
+               					compiaciuti,
+               				
+               					ora mi accorgo di non
+               					<br><span class="numeroRiga"><b>10</b></span>
+               					essere nato per fare il professore,
+               					<br><span class="numeroRiga"><b>11</b></span>
+               					ma per fare il 
+               <sic>gamster</sic>
+               <corr>gangster</corr>
+               					<br><span class="numeroRiga"><b>12</b></span>
+               					la sparator
+               <damage>ia</damage> dal  
+               <gap>?</gap>
+               					<br><span class="numeroRiga"><b>13</b></span>
+               					e poi, quando balzai giù,
+               					<br><span class="numeroRiga"><b>14</b></span>
+               					non vidi che gli ultimi
+               					<br><span class="numeroRiga"><b>15</b></span>
+               					lembi dei <del>fascisti</del> vestiti
+               					<br><span class="numeroRiga"><b>16</b></span>
+               					dei fascisti che fuggivano
+               					<br><span class="numeroRiga"><b>17</b></span>
+               					oltre il porticato del mercato
+               					<br><span class="numeroRiga"><b>18</b></span>
+               					coperto. 	
+               				
+               					Spa
+               <damage>r</damage>ar
+               <damage>e</damage>
+               					
+               <add>nella schiena dei</add>
+               					<del>
+                  <damage>sui</damage></del> fuggenti
+               					<br><span class="numeroRiga"><b>19</b></span>
+               					l'ho sentito, è una cosa che
+               					<br><span class="numeroRiga"><b>20</b></span>
+               					non saprò mai fare.
+               				
+               					La 
+               					<br><span class="numeroRiga"><b>21</b></span>
+               					battaglia mi parve terminata, le
+               					<br><span class="numeroRiga"><b>22</b></span>
+               					donne uscivano dalle porte
+               				</div>
+         </div>
+      </article>
+      <article id="p91">
+         <h2> Pagina 91 </h2>
+         <div class="flexbox">
+            <div class="img"><img src="Pag91.jpg"></div>
+            <div class="text">
+               <div id="pagina_91"></div>
+               
+               					<br><span class="numeroRiga"><b>1</b></span>
+               					e il maresciallo dei carabinieri
+               					<br><span class="numeroRiga"><b>2</b></span>
+               					passeggiava con un'aria piuttosto
+               					<br><span class="numeroRiga"><b>3</b></span>
+               					ridicola, così ebbi il battesimo
+               					<br><span class="numeroRiga"><b>4</b></span>
+               					del fuoco, per usare una frase
+               					<br><span class="numeroRiga"><b>5</b></span>
+               					fatta <del>piuttosto</del> infelice quanto
+               					<br><span class="numeroRiga"><b>6</b></span>
+               					abusata.	
+               				
+               					<br><span class="numeroRiga"><b>7</b></span>
+               					
+               <damage>a</damage>llo
+               <damage>ra</damage> il
+               					
+               <damage>
+                  <gap>?</gap>
+               </damage> che mi
+               					<br><span class="numeroRiga"><b>8</b></span>
+               					resi utile.
+               				
+               					C'era un'automobile
+               					<br><span class="numeroRiga"><b>9</b></span>
+               					verde, l'automobile dei fascisti
+               					<br><span class="numeroRiga"><b>10</b></span>
+               					in piazza, con un fucile 
+               					<br><span class="numeroRiga"><b>11</b></span>
+               					mitragliatore e molte munizioni.
+               				
+               					<br><span class="numeroRiga"><b>12</b></span>
+               					Ci saltai sopra, presi con me
+               					<br><span class="numeroRiga"><b>13</b></span>
+               					una recluta che era già stata
+               					<br><span class="numeroRiga"><b>14</b></span>
+               					fermata dai fascisti e ora,
+               					<br><span class="numeroRiga"><b>15</b></span>
+               					libera, voleva fuggire 
+               <gap>?</gap> via
+               					<br><span class="numeroRiga"><b>16</b></span>
+               					alle basi di 
+               <placename>Baruge</placename>,
+               				
+               					ero felice
+               					<br><span class="numeroRiga"><b>17</b></span>
+               					del colpo riuscito, felice del 
+               					<br><span class="numeroRiga"><b>18</b></span>
+               					pericolo superato, felice della
+               					<br><span class="numeroRiga"><b>19</b></span>
+               					vittoria.
+               				
+               					Dopo pochi minuti la
+               					<br><span class="numeroRiga"><b>20</b></span>
+               					zona di 
+               <placename>Cavour</placename> era lontana.
+               				
+               					<br><span class="numeroRiga"><b>21</b></span>
+               					
+               <gap>?</gap> la 
+               <gap>?</gap> fu difficile,
+               					<br><span class="numeroRiga"><b>22</b></span>
+               					ma <del>nella</del> la popolazione, più
+               				</div>
+         </div>
+      </article>
+      <article id="p92">
+         <h2> Pagina 92 </h2>
+         <div class="flexbox">
+            <div class="img"><img src="Pag92.jpg"></div>
+            <div class="text">
+               <div id="pagina_92"></div>
+               
+               					<br><span class="numeroRiga"><b>1</b></span>
+               					di 40 persone, corsero ad aiutare,
+               					<br><span class="numeroRiga"><b>2</b></span>
+               					perché il popolo ha per i ribelli
+               					<br><span class="numeroRiga"><b>3</b></span>
+               					gli stessi sentimenti che i 
+               <gap>?</gap> 
+               					<br><span class="numeroRiga"><b>4</b></span>
+               					mostravano 
+               <damage>per</damage> i Garibaldini.
+               				
+               					
+               					<br><span class="numeroRiga"><b>5</b></span>
+               					A 
+               <gap>?</gap> 
+               <gap>?</gap> 
+               					molte fes
+               <damage>te</damage> dal
+               					<br><span class="numeroRiga"><b>6</b></span>
+               					
+               <gap>?</gap>, che mi abbracciò come
+               					<br><span class="numeroRiga"><b>7</b></span>
+               					sempre quando si ritorna da
+               					<br><span class="numeroRiga"><b>8</b></span>
+               					una bella azione, molti 
+               					<br><span class="numeroRiga"><b>9</b></span>
+               					rallegramenti per il bottino da tutti.
+               				
+               				
+               
+               					<br><span class="numeroRiga"><b>10</b></span>
+               					Intanto l'azione non era
+               					<br><span class="numeroRiga"><b>11</b></span>
+               					finita.
+               				
+               				
+               
+               					Passò un'automobile.
+               					<br><span class="numeroRiga"><b>12</b></span>
+               					tedesca, <del>ma</del> <del>
+                  <gap>?</gap></del> <del>
+                  <gap>?</gap></del> cui partì
+               					 <br><span class="numeroRiga"><b>13</b></span>
+               					 un colpo che ferì uno dei nostri
+               					 <br><span class="numeroRiga"><b>14</b></span>
+               					 ma fu poi criv
+               <damage>el</damage>lata dai colpi.
+               
+               				
+               					<br><span class="numeroRiga"><b>15</b></span>
+               					Dentro 2 tedeschi morti e un
+               					<br><span class="numeroRiga"><b>16</b></span>
+               					cospicuo bottino, <del>due</del> grossi
+               					<br><span class="numeroRiga"><b>17</b></span>
+               					pacchi di biglietti da mille,
+               					<br><span class="numeroRiga"><b>18</b></span>
+               					<del>di cui</del> per circa 1 000 000 nuovi 
+               <add>di zecca</add>
+               				
+               				
+               					<br><span class="numeroRiga"><b>19</b></span>
+               					Mentre tornavo, dimenticavo 
+               					<br><span class="numeroRiga"><b>20</b></span>
+               					
+               <damage>di</damage>
+               					
+               <damage>raccon</damage>tare, <del>
+                  <gap>?</gap></del>
+               					se si incontrava
+               					<br><span class="numeroRiga"><b>21</b></span>
+               					q
+               <damage>ua</damage>lcuno, facevo rallentare
+               					<br><span class="numeroRiga"><b>22</b></span>
+               					la macchina e gridavo.
+               				
+               				</div>
+         </div>
+      </article>
+      <div id="append">
+         <h3 id="about">Riferimenti</h3>
+         <p> Edizione Digitale - Febbraio 2024
+            				</p>
+         <p>Progetto a cura di: Beatrice Brianda</p>
+         <p>Coordinato da: Angelo Mario Del Grosso</p>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stile.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			
+			<titleStmt>
+				<title xml:lang="it">Diari di Emanuele Artom</title>
+				<author ref="EA">Emanuele Artom</author>
+				<respStmt>
+					
+					<resp>Trascrizione a cura di:</resp>
+					<name ref="BB">Beatrice Brianda</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				
+				<edition> Edizione Digitale - <date when="02-2024">Febbraio 2024</date>
+				</edition>
+				<respStmt>
+					<resp>Progetto coordinato da:</resp>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+				</respStmt>
+				<respStmt>
+					<resp>Codifica a cura di:</resp>
+					<name xml:id="BB">Beatrice Brianda</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability status="free">
+					<p>Opera ad accesso libero</p>
+				</availability>
+				<date when="2023"> 2023 </date>
+			</publicationStmt>
+
+			<sourceDesc>
+				
+				<msDesc>
+					
+					<msIdentifier>
+						<country key="IT">Italia</country>
+						<settlement>Milano</settlement>
+						<repository role="library">Centro di Documentazione Ebraica Contemporanea -
+							CDEC</repository>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="it">
+								<persName ref="EA">Emanuele Artom</persName>
+							</author>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc form="folio">
+							<supportDesc material="paper">
+								<support>Fogli di carta.</support>
+								<extent>172 pagine + 2 pagine iniziali che contengono un appunto
+									della signora Amalia Artom sul diario del figlio Emanuele.</extent>
+								<condition>Le pagine sono in buono stato, non presentano danni
+									rilevanti, ci sono poche cancellature. </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout columns="1" ruledLines="21">
+									<p>Le pagine sono costituite in media da 21 righe. 
+									Sono presenti cancellature e aggiunte. 
+									Non è sempre possibile capire la scrittura. </p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<p>Il testo è interamente scritto a mano. </p>
+						</handDesc>
+						<typeDesc>
+							<p>Il testo è scritto a mano in corsivo, in alcuni punti può essere
+								difficile da comprendere. Trattandosi di appunti sono presenti
+								cancellature e aggiunte. Non è destinato alla pubblicazione
+								quindi non presenta una copertina. </p>
+						</typeDesc>
+					</physDesc>
+					<history>
+						<origin notAfter="04-1944">
+							<p> Il materiale in questione consiste nei diari redatti da Emanuele Artom, 
+							arricchiti dalle prime due pagine contenenti la lettera originale di sua madre Amalia. 
+							Questa lettera, caratterizzata dall'epigrafe "alla mia morte questo plico deve essere 
+							consegnato al Centro di documentazione ebraica [...], esso ha un grande valore storico [...]", 
+							costituisce un importante contributo al contesto storico. I diari si suddividono chiaramente 
+							in due parti distinte. La prima parte, datata dal 1 gennaio 1940 al 10 settembre 1943, 
+							fornisce interessanti dettagli sulla vita culturale a Torino durante quegli anni, 
+							offrendo anche uno sguardo sul progressivo sviluppo della persecuzione razziale. 
+							Nel secondo segmento, che spazia dal novembre 1943 al 23 febbraio 1944, 
+							si delinea invece l'esperienza partigiana vissuta da Emanuele Artom. 
+							Questi diari costituiscono un prezioso documento storico che va oltre la mera cronaca, 
+							offrendo un'intima testimonianza di eventi cruciali e trasformazioni significative 
+							nel contesto dell'epoca. </p>
+						</origin>
+						<acquisition>
+							<p> Le carte del fondo Emanuele Artom sono state donate alla Fondazione
+							CDEC su espressa volontà della madre Amalia Segre Artom (cfr. busta 1,
+							fasc. 9). </p>
+						</acquisition>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="it">Italiano</language>
+			</langUsage>
+			<textDesc>
+				<channel mode="w" />
+				<constitution type="single" />
+				<derivation type="original" />
+				<domain type="education" />
+				<factuality type="fact" />
+				<interaction type="none" active="singular" passive="self" />
+				<preparedness type="none" />
+				<purpose type="inform" degree="high" />
+			</textDesc>
+			<settingDesc>
+				<setting>
+					<name> Testi registrati dal Centro di Documentazione Ebraica Contemporanea -
+						CDEC <placeName>Milano</placeName>, <country>Italia</country>. </name>
+					<time>
+						<date when="1943-1944">1943-1944</date>
+					</time>
+				</setting>
+			</settingDesc>
+		</profileDesc>
+	</teiHeader>
+	<facsimile>
+		<surface n="1" xml:id="Pag90">
+			<graphic url='Pag90.jpeg' width='759.181818px' height='1024.181818px' xml:id="P90Intera" />
+			<zone ulx="101" uly="99" lrx="644" lry="134" xml:id="P90Riga1" />
+			<zone ulx="101" uly="134" lrx="625" lry="168" xml:id="P90Riga2" />
+			<zone ulx="97" uly="172" lrx="654" lry="213" xml:id="P90Riga3" />
+			<zone ulx="95" uly="219" lrx="645" lry="252" xml:id="P90Riga4" />
+			<zone ulx="95" uly="256" lrx="686" lry="292" xml:id="P90Riga5" />
+			<zone ulx="93" uly="293" lrx="675" lry="329" xml:id="P90Riga6" />
+			<zone ulx="94" uly="335" lrx="658" lry="367" xml:id="P90Riga7" />
+			<zone ulx="94" uly="375" lrx="669" lry="407" xml:id="P90Riga8" />
+			<zone ulx="95" uly="411" lrx="679" lry="443" xml:id="P90Riga9" />
+			<zone ulx="94" uly="448" lrx="723" lry="489" xml:id="P90Riga10" />
+			<zone ulx="95" uly="483" lrx="637" lry="521" xml:id="P90Riga11" />
+			<zone ulx="94" uly="520" lrx="691" lry="561" xml:id="P90Riga12" />
+			<zone ulx="96" uly="562" lrx="687" lry="615" xml:id="P90Riga13" />
+			<zone ulx="104" uly="602" lrx="626" lry="636" xml:id="P90Riga14" />
+			<zone ulx="102" uly="638" lrx="670" lry="677" xml:id="P90Riga15" />
+			<zone ulx="92" uly="674" lrx="647" lry="711" xml:id="P90Riga16" />
+			<zone ulx="103" uly="715" lrx="672" lry="749" xml:id="P90Riga17" />
+			<zone ulx="95" uly="755" lrx="689" lry="794" xml:id="P90Riga18" />
+			<zone ulx="95" uly="793" lrx="667" lry="833" xml:id="P90Riga19" />
+			<zone ulx="95" uly="830" lrx="686" lry="872" xml:id="P90Riga20" />
+			<zone ulx="96" uly="866" lrx="665" lry="908" xml:id="P90Riga21" />
+			<zone ulx="96" uly="907" lrx="665" lry="944" xml:id="P90Riga22" />
+		</surface>
+		<surface n="2" xml:id="Pag91">
+			<graphic url='pag91.jpeg' width='759px' height='1024px' xml:id="P91Intera" />
+			<zone ulx="87" uly="105" lrx="653" lry="134" xml:id="P91Riga1" />
+			<zone ulx="86" uly="143" lrx="726" lry="176" xml:id="P91Riga2" />
+			<zone ulx="87" uly="182" lrx="670" lry="212" xml:id="P91Riga3" />
+			<zone ulx="89" uly="213" lrx="650" lry="253" xml:id="P91Riga4" />
+			<zone ulx="89" uly="253" lrx="653" lry="291" xml:id="P91Riga5" />
+			<zone ulx="87" uly="296" lrx="282" lry="327" xml:id="P91Riga6" />
+			<zone ulx="87" uly="330" lrx="632" lry="366" xml:id="P91Riga7" />
+			<zone ulx="87" uly="369" lrx="674" lry="410" xml:id="P91Riga8" />
+			<zone ulx="86" uly="413" lrx="649" lry="447" xml:id="P91Riga9" />
+			<zone ulx="88" uly="449" lrx="668" lry="486" xml:id="P91Riga10" />
+			<zone ulx="89" uly="484" lrx="666" lry="523" xml:id="P91Riga11" />
+			<zone ulx="106" uly="522" lrx="666" lry="564" xml:id="P91Riga12" />
+			<zone ulx="95" uly="561" lrx="684" lry="604" xml:id="P91Riga13" />
+			<zone ulx="88" uly="597" lrx="632" lry="637" xml:id="P91Riga14" />
+			<zone ulx="104" uly="633" lrx="653" lry="673" xml:id="P91Riga15" />
+			<zone ulx="93" uly="674" lrx="669" lry="729" xml:id="P91Riga16" />
+			<zone ulx="86" uly="711" lrx="629" lry="757" xml:id="P91Riga17" />
+			<zone ulx="89" uly="762" lrx="668" lry="797" xml:id="P91Riga18" />
+			<zone ulx="90" uly="795" lrx="635" lry="834" xml:id="P91Riga19" />
+			<zone ulx="96" uly="832" lrx="667" lry="872" xml:id="P91Riga20" />
+			<zone ulx="94" uly="867" lrx="678" lry="917" xml:id="P91Riga21" />
+			<zone ulx="94" uly="912" lrx="651" lry="953" xml:id="P91Riga22" />
+		</surface>
+		<surface n="3" xml:id="Pag92">
+			<graphic url='pag92.jpeg' width='761px' height='1024px' xml:id="P92Intera" />
+			<zone ulx="94" uly="89" lrx="690" lry="140" xml:id="P92Riga1" />
+			<zone ulx="93" uly="138" lrx="667" lry="170" xml:id="P92Riga2" />
+			<zone ulx="97" uly="171" lrx="705" lry="213" xml:id="P92Riga3" />
+			<zone ulx="96" uly="210" lrx="654" lry="249" xml:id="P92Riga4" />
+			<zone ulx="100" uly="247" lrx="647" lry="289" xml:id="P92Riga5" />
+			<zone ulx="105" uly="283" lrx="690" lry="328" xml:id="P92Riga6" />
+			<zone ulx="95" uly="328" lrx="650" lry="362" xml:id="P92Riga7" />
+			<zone ulx="96" uly="371" lrx="676" lry="406" xml:id="P92Riga8" />
+			<zone ulx="98" uly="409" lrx="677" lry="443" xml:id="P92Riga9" />
+			<zone ulx="106" uly="439" lrx="619" lry="481" xml:id="P92Riga10" />
+			<zone ulx="104" uly="481" lrx="698" lry="531" xml:id="P92Riga11" />
+			<zone ulx="115" uly="517" lrx="661" lry="551" xml:id="P92Riga12" />
+			<zone ulx="95" uly="561" lrx="702" lry="602" xml:id="P92Riga13" />
+			<zone ulx="94" uly="603" lrx="695" lry="643" xml:id="P92Riga14" />
+			<zone ulx="97" uly="637" lrx="643" lry="674" xml:id="P92Riga15" />
+			<zone ulx="98" uly="678" lrx="677" lry="716" xml:id="P92Riga16" />
+			<zone ulx="107" uly="720" lrx="676" lry="759" xml:id="P92Riga17" />
+			<zone ulx="108" uly="749" lrx="722" lry="807" xml:id="P92Riga18" />
+			<zone ulx="104" uly="789" lrx="642" lry="831" xml:id="P92Riga19" />
+			<zone ulx="101" uly="830" lrx="720" lry="886" xml:id="P92Riga20" />
+			<zone ulx="94" uly="873" lrx="679" lry="913" xml:id="P92Riga21" />
+			<zone ulx="105" uly="906" lrx="623" lry="945" xml:id="P92Riga22" />
+		</surface>
+	</facsimile>
+
+	<text xml:lang="it" xml:id="Pag90-91-92" subtype="manuscript">
+		<body>
+			<div type="pagina" n="90">
+				<pb n="90" facs="#P90Intera" />
+				<ab type="pericope" n="1" xml:id="Pag90Pericope1">
+					<lb xml:id="P90R1" n="1" facs="#P90Riga1" />
+					<del rend="overstrike">ogni</del> balzo quale non ho
+					<lb xml:id="P90R2" n="2" facs="#P90Riga2" />
+					mai fatto in vita mia e				
+					<lb xml:id="P90R3" n="3" facs="#P90Riga3" />
+					si cominciò la volata per
+					<lb xml:id="P90R4" n="4" facs="#P90Riga4" />
+					la campagna.
+				</ab>
+
+				<ab type="pericope" n="2" xml:id="Pag90Pericope2">
+					Giunti quasi
+					<lb xml:id="P90R5" n="5" facs="#P90Riga5" />
+					alla meta, preparai le bombe
+					<lb xml:id="P90R6" n="6" facs="#P90Riga6" />
+					a mano per il combattimento
+					<lb xml:id="P90R7" n="7" facs="#P90Riga7" />
+					e dichiarai ai compagni che
+					<lb xml:id="P90R8" n="8" facs="#P90Riga8" />
+					si mostravano molto 
+					<lb xml:id="P90R9" n="9" facs="#P90Riga9" />
+					compia<lb break="no"/>ciuti,
+				</ab>
+				<ab type="pericope" n="3" xml:id="Pag90Pericope3">
+					ora mi accorgo di non
+					<lb xml:id="P90R10" n="10" facs="#P90Riga10" />
+					essere nato per fare il professore,
+					<lb xml:id="P90R11" n="11" facs="#P90Riga11" />
+					ma per fare il <choice><sic>gamster</sic> <corr resp="BB">gangster</corr></choice>
+					<lb xml:id="P90R12" n="12" facs="#P90Riga12" />
+					la sparator<damage agent="ink"><supplied>ia</supplied></damage> dal  <gap atLeast="5" atMost="7" unit="chars" reason="illegible"/>
+					<lb xml:id="P90R13" n="13" facs="#P90Riga13" />
+					e poi, quando balzai giù,
+					<lb xml:id="P90R14" n="14" facs="#P90Riga14" />
+					non vidi che gli ultimi
+					<lb xml:id="P90R15" n="15" facs="#P90Riga15" />
+					lembi dei <del rend="overstrike">fascisti</del> vestiti
+					<lb xml:id="P90R16" n="16" facs="#P90Riga16" />
+					dei fascisti che fuggivano
+					<lb xml:id="P90R17" n="17" facs="#P90Riga17" />
+					oltre il porticato del mercato
+					<lb xml:id="P90R18" n="18" facs="#P90Riga18" />
+					coperto. 	
+				</ab>
+				<ab type="pericope" n="4" xml:id="Pag90Pericope4">
+					Spa<damage agent="ink"><supplied>r</supplied></damage>ar<damage agent="ink"><supplied>e</supplied></damage>
+					<add place="above">nella schiena dei</add>
+					<del rend="overstrike"><damage agent="ink"><supplied>sui</supplied></damage></del> fuggenti
+					<lb xml:id="P90R19" n="19" facs="#P90Riga19" />
+					l'ho sentito, è una cosa che
+					<lb xml:id="P90R20" n="20" facs="#P90Riga20" />
+					non saprò mai fare.
+				</ab>
+				<ab type="pericope" n="5" xml:id="Pag90Pericope5">
+					La 
+					<lb xml:id="P90R21" n="21" facs="#P90Riga21" />
+					batta<lb break="no"/>glia mi parve terminata, le
+					<lb xml:id="P90R22" n="22" facs="#P90Riga22" />
+					donne uscivano dalle porte
+				</ab>
+			</div>
+
+			<div type="pagina" n="91">
+				<pb n="91" facs="#P91Intera" />
+				
+				<ab type="pericope" n="1" xml:id="Pag91Pericope1">
+
+					<lb xml:id="P91R1" n="1" facs="#P91Riga1" />
+					e il maresciallo dei carabinieri
+					<lb xml:id="P91R2" n="2" facs="#P91Riga2" />
+					passeggiava con un'aria piuttosto
+					<lb xml:id="P91R3" n="3" facs="#P91Riga3" />
+					ridicola, così ebbi il battesimo
+					<lb xml:id="P91R4" n="4" facs="#P91Riga4" />
+					del fuoco, per usare una frase
+					<lb xml:id="P91R5" n="5" facs="#P91Riga5" />
+					fatta <del rend="overstrike">piuttosto</del> infelice quanto
+					<lb xml:id="P91R6" n="6" facs="#P91Riga6" />
+					abusata.	
+				</ab>
+				<ab type="pericope" n="2" xml:id="Pag91Pericope2">
+					<lb xml:id="P91R7" n="7" facs="#P91Riga7" />
+					<damage agent="ink"><supplied>a</supplied></damage>llo<damage agent="ink"><supplied>ra</supplied></damage> il
+					<damage agent="ink"><supplied><gap atLeast="5" atMost="9" unit="chars" reason="illegible"/></supplied></damage> che mi
+					<lb xml:id="P91R8" n="8" facs="#P91Riga8" />
+					resi utile.
+				</ab>
+
+				<ab type="pericope" n="3" xml:id="Pag91Pericope3">
+					C'era un'automobile
+					<lb xml:id="P91R9" n="9" facs="#P91Riga9" />
+					verde, l'automobile dei fascisti
+					<lb xml:id="P91R10" n="10" facs="#P91Riga10" />
+					in piazza, con un fucile 
+					<lb xml:id="P91R11" n="11" facs="#P91Riga11" />
+					mitra<lb break="no"/>gliatore e molte munizioni.
+				</ab>
+
+				<ab type="pericope" n="4" xml:id="Pag91Pericope4">
+					<lb xml:id="P91R12" n="12" facs="#P91Riga12" />
+					Ci saltai sopra, presi con me
+					<lb xml:id="P91R13" n="13" facs="#P91Riga13" />
+					una recluta che era già stata
+					<lb xml:id="P91R14" n="14" facs="#P91Riga14" />
+					fermata dai fascisti e ora,
+					<lb xml:id="P91R15" n="15" facs="#P91Riga15" />
+					libera, voleva fuggire <gap reason="illegible" quantity="1" unit="chars" /> via
+					<lb xml:id="P91R16" n="16" facs="#P91Riga16" />
+					alle basi di <placeName>Baruge</placeName>,
+				</ab>
+
+				<ab type="pericope" n="5" xml:id="Pag91Pericope5">
+					ero felice
+					<lb xml:id="P91R17" n="17" facs="#P91Riga17" />
+					del colpo riuscito, felice del 
+					<lb xml:id="P91R18" n="18" facs="#P91Riga18" />
+					pericolo superato, felice della
+					<lb xml:id="P91R19" n="19" facs="#P91Riga19" />
+					vittoria.
+				</ab>
+
+				<ab type="pericope" n="6" xml:id="Pag91Pericope6">
+					Dopo pochi minuti la
+					<lb xml:id="P91R20" n="20" facs="#P91Riga20" />
+					zona di <placeName>Cavour</placeName> era lontana.
+				</ab>
+
+				<ab type="pericope" n="7" xml:id="Pag91Pericope7">
+					<lb xml:id="P91R21" n="21" facs="#P91Riga21" />
+					<gap atLeast="7" atMost="9" unit="chars" reason="illegible"/> la <gap atLeast="4" atMost="6" unit="chars" reason="illegible"/> fu difficile,
+					<lb xml:id="P91R22" n="22" facs="#P91Riga22" />
+					ma <del rend="overstrike">nella</del> la popolazione, più
+				</ab>
+			</div>
+
+
+			<div type="pagina" n="92">
+				<pb n="92" facs="#P92Intera" />
+				
+				<ab type="pericope" n="1" xml:id="Pag92Pericope1">
+
+					<lb xml:id="P92R1" n="1" facs="#P92Riga1" />
+					di 40 persone, corsero ad aiutare,
+					<lb xml:id="P92R2" n="2" facs="#P92Riga2" />
+					perché il popolo ha per i ribelli
+					<lb xml:id="P92R3" n="3" facs="#P92Riga3" />
+					gli stessi sentimenti che i <gap atLeast="8" atMost="10" unit="chars" reason="illegible"/> 
+					<lb xml:id="P92R4" n="4" facs="#P92Riga4" />
+					mostravano <damage agent="ink"><supplied>per</supplied></damage> i Garibaldini.
+				</ab>
+
+				<ab type="pericope" n="2" xml:id="Pag92Pericope2">
+					
+					<lb xml:id="P92R5" n="5" facs="#P92Riga5" />
+					A <gap atLeast="2" atMost="3" unit="chars" reason="illegible"/> <gap atLeast="3" atMost="4" unit="chars" reason="illegible"/> 
+					molte fes<damage agent="ink"><supplied>te</supplied></damage> dal
+					<lb xml:id="P92R6" n="6" facs="#P92Riga6" />
+					<gap atLeast="6" atMost="7" unit="chars" reason="illegible"/>, che mi abbracciò come
+					<lb xml:id="P92R7" n="7" facs="#P92Riga7" />
+					sempre quando si ritorna da
+					<lb xml:id="P92R8" n="8" facs="#P92Riga8" />
+					una bella azione, molti 
+					<lb xml:id="P92R9" n="9" facs="#P92Riga9" />
+					ralle<lb break="no"/>gramenti per il bottino da tutti.
+				
+				</ab>
+
+				<ab type="pericope" n="3" xml:id="Pag92Pericope3">
+
+					<lb xml:id="P92R10" n="10" facs="#P92Riga10" />
+					Intanto l'azione non era
+					<lb xml:id="P92R11" n="11" facs="#P92Riga11" />
+					finita.
+				
+				</ab>
+
+				<ab type="pericope" n="4" xml:id="Pag92Pericope4">
+
+					Passò un'automobile.
+					<lb xml:id="P92R12" n="12" facs="#P92Riga12" />
+					tedesca, <del rend="overstrike">ma</del> <del rend="overstrike"><gap quantity="2" unit="chars" reason="illegible" /></del> <del rend="overstrike"><gap quantity="3" unit="chars" reason="illegible" /></del> cui partì
+					 <lb xml:id="P92R13" n="13" facs="#P92Riga13" />
+					 un colpo che ferì uno dei nostri
+					 <lb xml:id="P92R14" n="14" facs="#P92Riga14" />
+					 ma fu poi criv<damage agent="ink"><supplied>el</supplied></damage>lata dai colpi.
+
+				</ab>
+
+				<ab type="pericope" n="5" xml:id="Pag92Pericope5">
+					<lb xml:id="P92R15" n="15" facs="#P92Riga15" />
+					Dentro 2 tedeschi morti e un
+					<lb xml:id="P92R16" n="16" facs="#P92Riga16" />
+					cospicuo bottino, <del rend="overstrike">due</del> grossi
+					<lb xml:id="P92R17" n="17" facs="#P92Riga17" />
+					pacchi di biglietti da mille,
+					<lb xml:id="P92R18" n="18" facs="#P92Riga18" />
+					<del rend="overstrike">di cui</del> per circa 1 000 000 nuovi <add place="below">di zecca</add>
+				
+				</ab>
+
+				<ab type="pericope" n="6" xml:id="Pag92Pericope6">
+					<lb xml:id="P92R19" n="19" facs="#P92Riga19" />
+					Mentre tornavo, dimenticavo 
+					<lb xml:id="P92R20" n="20" facs="#P92Riga20" />
+					<damage agent="ink"><supplied>di</supplied></damage>
+					<damage agent="ink"><supplied>raccon</supplied></damage>tare, <del rend="overstrike"><gap quantity="2" unit="chars" reason="illegible" /></del>
+					se si incontrava
+					<lb xml:id="P92R21" n="21" facs="#P92Riga21" />
+					q<damage agent="ink"><supplied>ua</supplied></damage>lcuno, facevo rallentare
+					<lb xml:id="P92R22" n="22" facs="#P92Riga22" />
+					la macchina e gridavo.
+				
+				</ab>
+
+			</div>
+
+		</body>
+
+		<back>
+			
+			<div type="appendice">
+				
+				<listBibl>
+					<bibl xml:id="GSLib" xml:lang="it">
+						<author ref="#GS">
+							<forename>Guri</forename>
+							<surname>Schwarz</surname>
+						</author>
+						<title>Diari
+						di un partigiano ebreo</title>
+						<pubPlace
+							ref="#torino"><placeName ref="#torino">Torino</placeName></pubPlace>
+						<publisher>Bollati
+						Boringhieri</publisher>
+						<date when="2008">2008</date>
+					</bibl>
+
+					<bibl xml:id="ACLib">
+						<author xml:id="AlbertoC">
+							<forename>Alberto</forename>
+							<surname>Cavaglion</surname>
+						</author>
+						<title
+							type="main" level="m">La moralità armata</title>
+						<title type="sub">Studi
+						su Emanuele Artom </title>
+						<pubPlace><placeName ref="#milano">Milano</placeName></pubPlace>
+						<publisher>Franco
+						Angeli</publisher>
+						<date when="1993">1993</date>
+					</bibl>
+					<bibl xml:id="PElib" xml:lang="it">
+						<author ref="PaolaDB">
+							<forename>Paola</forename>
+							<surname>De Benedetti</surname>
+						</author>
+						<author
+							ref="EloisaR">
+							<forename>Eloisa</forename>
+							<surname>Ravenna</surname>
+						</author>
+						<title>Emanuele
+						Artom, Diari </title>
+						<pubPlace ref="#milano"><placeName ref="#milano">Milano</placeName></pubPlace>
+						<date
+							when="1966">1966</date>
+					</bibl>
+					<bibl xml:id="TBLib">
+						<author xml:id="BenvenutaT">
+							<forename>Benvenuta</forename>
+							<surname>Treves</surname>
+						</author>
+						<title
+							type="main" level="m">Tre vite dall'ultimo '800 alla metà del '900</title>
+						<title
+							type="sub">Studi e memorie di Emilio, Emanuele, Ennio Artom</title>
+						<pubPlace><placeName
+								ref="#firenze">Firenze</placeName></pubPlace>
+						<publisher>Israel </publisher>
+						<date
+							when="1954">1954</date>
+					</bibl>
+				</listBibl>
+
+				<listPlace>
+					<place xml:id="milano">
+						<placeName ref="https://it.wikipedia.org/wiki/Milano">Milano</placeName>
+						<settlement type="region">Lombardia</settlement>
+						<country>Italia</country>
+					</place>
+					<place xml:id="torino">
+						<placeName ref="https://it.wikipedia.org/wiki/Torino">Torino</placeName>
+						<settlement type="region">Piemonte</settlement>
+						<country>Italia</country>
+					</place>
+					<place xml:id="firenze">
+						<placeName ref="https://it.wikipedia.org/wiki/Firenze">Firenze</placeName>
+						<settlement type="region">Toscana</settlement>
+						<country>Italia</country>
+					</place>
+				</listPlace>
+
+
+			</div>
+		</back>
+	</text>
+</TEI>		
